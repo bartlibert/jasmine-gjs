@@ -19,6 +19,7 @@ CLEANFILES += bin/jasmine
 
 dist_pkgdata_DATA = \
 	src/command.js \
+	src/config.js \
 	src/consoleReporter.js \
 	src/jasmineBoot.js \
 	src/junitReporter.js \
@@ -55,6 +56,7 @@ JS_LOG_DRIVER_FLAGS = --comments
 
 TESTS = \
 	test/commandSpec.js \
+	test/configSpec.js \
 	test/consoleReporterSpec.js \
 	test/defaultReporterSpec.js \
 	test/focusedSpecIntegrationTest.js \
